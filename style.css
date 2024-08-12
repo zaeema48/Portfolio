@@ -333,6 +333,14 @@ section {
   flex-direction: column;
 }
 
+.project-description{
+  color: rgb(85, 85, 85);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: initial;
+  margin-bottom: 1rem;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -386,7 +394,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact-info-upper-container {
