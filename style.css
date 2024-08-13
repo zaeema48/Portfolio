@@ -284,7 +284,11 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
+  width: 600px;  /* Set the desired width */
+  height: 500px; /* Set the desired height */
+  border-radius: 50%; /* Makes the image circular */
+  overflow: hidden;   /* Ensures any overflow is hidden */
 }
 
 .arrow {
